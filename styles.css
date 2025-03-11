@@ -125,3 +125,9 @@ button:focus {
     display: none;
   }
 }
+
+#vr {
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}

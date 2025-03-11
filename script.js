@@ -190,3 +190,8 @@ function getAllNotes() {
 function deleteNote(dateTime) {
   localStorage.removeItem("note-" + dateTime);
 }
+
+document.querySelector("#vr").addEventListener("click", function () {
+  document.querySelector("#vr").innerHTML =
+    "<iframe width='560px' height='315px' src='https://www.360easyvr.com/vr/8217?scene_id=23483' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+});
